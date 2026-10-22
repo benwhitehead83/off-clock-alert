@@ -10,6 +10,8 @@ File: `file:///b!4aIh5XqNR0695sSZ61VoIePqFH1JiRlFjz4D0FKknncs6HyD3wh1RKd-1kfaCPW
 - Never conclude "no 2026 data": the sheet runs to 2026 and beyond.
 
 ## Cell codes (inferred, confirm with Ben)
+The real legend is in cells A70:C82 of sheet "Travel Planning", but the read_resource dump does not include those rows
+(it jumps from row ~71 to the formulas list). Replace the guesses below once the legend text is available.
 Site-style letters: S = Szczecin (SZZ), C = Columbus (CMH, US Eastern), K = Cologne (CGN), W/M/P/F other European sites,
 U = holiday, x/X/. = office/home-type days, lowercase = tentative. Free-text cells ("PRO Visit CGN") are notes.
 Ben's plan: C 21-29 Oct 2026, c 9-26 Nov and 7-20 Dec 2026.
