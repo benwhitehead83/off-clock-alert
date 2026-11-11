@@ -1,0 +1,14 @@
+{
+  "last_run_utc": "2026-11-11T12:24:00Z",
+  "last_run_result": "off-the-clock (Wed 07:24 local, America/New_York - sheet cell 'C' for 11 Nov, verified this run; calendar confirms Columbus hotel to 12 Nov; Ben already active on Slack/email from ~06:40 local) - checked email and Slack, nothing urgent, no alert sent",
+  "last_message_check_utc": "2026-11-11T12:30:00Z",
+  "message_check_window_utc": "2026-11-11T10:25:00Z to 2026-11-11T12:30:00Z (email and Slack DMs/mentions re-read from 02:00 UTC)",
+  "watch_items": [
+    "Lyto US escalation in #merchone-us-production (Edgars Silins, 11:41 UTC 11 Nov, to Jacques Accius): customers received blankets/doormats with another customer's photo and name (produced ~29 Oct-4 Nov, personal data involved), plus delayed orders and damaged posters. Key account. Sven Neu and Edgars already exchanging PPO numbers in the thread (12:14-12:20 UTC) - being handled, a quality/customer matter and not a system outage, not alerted. https://thecustomizationgroup.slack.com/archives/C0AHPEHBVPB/p1794397261544649 - re-check only if it is escalated to Ben directly or stays unanswered by CMH into the next off-clock window.",
+    "PCS nesting-error mails (produktionssteuerung@picanova.de): second burst ran 10:11-10:54 UTC 11 Nov (about 15 mails), none since (checked to 12:25 UTC), no Slack mention - per-order errors, burst stopped; drop unless new mails appear.",
+    "BI bridge / NGE-18101 and US magic mugs OMS routing: developers on both, no live outage - not alert-worthy.",
+    "FYI only: Ben has already answered Torsten (pay-rate split, Columbus pickup plan), Ilze (FSC status) and Jens (EnMs tokens) this morning; ClickUp mention from Ngan (Mia) about Snow Globe certifications is open but routine."
+  ],
+  "notes": "Legend rows (A70:C82) are cut off by the connector's 200k-char limit - rely on the code table in CLAUDE.md. Do not read sheet 2 (Trade Fairs) unless the cell is f/F; it is large. No state branch exists for a ~11:25 UTC run, so this run's window started from the 10:30 UTC check.",
+  "previous_state_branch": "claude/serene-hopper-l04pms"
+}
