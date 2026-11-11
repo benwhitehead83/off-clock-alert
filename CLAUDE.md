@@ -13,7 +13,7 @@ File: `file:///b!4aIh5XqNR0695sSZ61VoIePqFH1JiRlFjz4D0FKknncs6HyD3wh1RKd-1kfaCPW
 s/S Szczecin (Europe/Warsaw), c/C Columbus (America/New_York), m/M Munich (Europe/Berlin), p/P Phoenix (America/Phoenix, UTC-7, no DST),
 k/K Cologne (Europe/Berlin), w/W Wolfen (Europe/Berlin), r/R Riga (Europe/Riga, +1h vs Berlin), f/F Conference/Fair (see "Trade Fairs" sheet city for the zone),
 u/U Vacation, h/H Home Office, x/X Other (location unknown: assume Europe/Berlin), blank/"." = Europe/Berlin, public holiday = orange fill (not visible in dump).
-Free-text cells ("PRO Visit CGN") are notes. Ben's plan: C 21-29 Oct 2026, c 9-26 Nov and 7-20 Dec 2026.
+Free-text cells ("PRO Visit CGN") are notes. Ben's plan as read 11 Nov 2026 (re-read each run, it changes): X 8 Nov, C 9-19 Nov, x 20-22 Nov, c from 23 Nov into December.
 Vacation: still apply off-clock hours using the last known / home zone (Europe/Berlin if unclear).
 
 ## Time zones
