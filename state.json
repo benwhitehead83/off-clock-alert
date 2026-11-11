@@ -1,0 +1,15 @@
+{
+  "last_run_utc": "2026-11-11T10:24:00Z",
+  "last_run_result": "off-the-clock (Wed 05:24 local, America/New_York - sheet cell 'C' for 11 Nov, verified this run; calendar confirms Columbus hotel to 12 Nov) - checked email and Slack, nothing urgent, no alert sent",
+  "last_message_check_utc": "2026-11-11T10:30:00Z",
+  "message_check_window_utc": "2026-11-11T08:22:00Z to 2026-11-11T10:30:00Z",
+  "watch_items": [
+    "PCS nesting-error mails (produktionssteuerung@picanova.de, 'tempLogo...jpg is not a recognized imageformat'): new burst started 10:11 UTC 11 Nov, 8 mails by 10:25 UTC (one earlier at 09:21). Same logo-file cause as the earlier b2b-shop-eu burst (stopped 04:20 UTC) - per-order data errors, not a system outage, no Slack mention. Only consider alerting if it turns into a sustained high-volume failure for >2h or people report nesting/PCS down.",
+    "BI bridge: ORPS DWS decimal columns took the BI bridge down on 10 Nov; BI switched the topic off, fix NGE-18101 landed on dev 09:42 UTC 11 Nov - developers on it, reporting-only impact, not alert-worthy.",
+    "US magic mugs (MGM..MB) fail OMS routing: Daria disabled magic mugs on US shops 10:07 UTC 11 Nov, fix discussed in #nge-scope-opsos-rollout - handled, not alert-worthy.",
+    "Zenduty #2084 opsos-prod frontend-proxy: resolved 10 Nov, only cleanup pending - drop unless it re-fires.",
+    "FYI only: Torsten's open questions from 06:09-06:22 UTC (temp rotation numbers / pay-rate split, Columbus peak pickup plan); Bjoern Schwarzbach in #orwo-peak-routing 08:50 UTC: routed volume only 35-75% of forecast (planning concern, addressed to Niklavs); ISO surveillance audit 1-2 Dec (Jens Klingberg mail 10:04 UTC)."
+  ],
+  "notes": "Legend rows (A70:C82) are cut off by the connector's 200k-char limit - rely on the code table in CLAUDE.md. Do not read sheet 2 (Trade Fairs) unless the cell is f/F; it is large. No state branch exists for a ~09:25 UTC run, so this run's window started from the 08:27 UTC check.",
+  "previous_state_branch": "claude/serene-hopper-14o5c9"
+}
