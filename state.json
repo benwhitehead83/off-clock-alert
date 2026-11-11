@@ -1,0 +1,13 @@
+{
+  "last_run_utc": "2026-11-11T08:24:00Z",
+  "last_run_result": "off-the-clock (Wed 03:24 local, America/New_York - sheet cell 'C' for 11 Nov, verified this run; calendar confirms Columbus hotel) - checked email and Slack, nothing urgent, no alert sent",
+  "last_message_check_utc": "2026-11-11T08:27:00Z",
+  "message_check_window_utc": "2026-11-11T05:25:00Z to 2026-11-11T08:27:00Z",
+  "watch_items": [
+    "Zenduty #2084 opsos-prod frontend-proxy pod restarts: auto-resolved 09:14 UTC 10 Nov; cleanup of unused pre-NGE-12969 frontend-proxy stack pending with DevOps (Abhishek replied 'Yes. Let me double confirm' 04:43 UTC 11 Nov in #nge-scope-opsos-rollout) - cleanup only, not an active outage",
+    "b2b-shop-eu logo-file nesting errors: no further error mails since 04:20:43 UTC 11 Nov (checked to 08:27 UTC) and no Slack mention - burst has stopped; drop this item unless new error mails appear",
+    "Not alert-worthy, FYI only: Torsten asked by Slack group DM (06:09/06:17 UTC) for temp rotation numbers and pay-rate split, and by email (06:22 UTC) about Columbus peak pickup plan/roadworks; legal thread 'Draft Protest Legal Argument' active; PCS on-time alert for 10 Nov shows canvasdiscount.com at 40.6% on time in CMH (daily bot report, peak backlog)"
+  ],
+  "notes": "Legend rows (A70:C82) are cut off by the connector's 200k-char limit - rely on the code table in CLAUDE.md. Do not read sheet 2 (Trade Fairs) unless the cell is f/F; it is large.",
+  "previous_state_branch": "claude/serene-hopper-unigfs"
+}
