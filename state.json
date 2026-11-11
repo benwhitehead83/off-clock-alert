@@ -1,0 +1,12 @@
+{
+  "last_run_utc": "2026-11-11T05:24:00Z",
+  "last_run_result": "off-the-clock (Wed 00:24 local, America/New_York - sheet cell 'C' for 11 Nov, verified this run) - checked email and Slack, nothing urgent, no alert sent",
+  "last_message_check_utc": "2026-11-11T05:30:00Z",
+  "message_check_window_utc": "2026-11-11T04:19:00Z to 2026-11-11T05:30:00Z",
+  "watch_items": [
+    "Zenduty #2084 opsos-prod frontend-proxy pod restarts: auto-resolved 09:14 UTC 10 Nov; cleanup of unused pre-NGE-12969 frontend-proxy stack pending with DevOps (Abhishek replied 'Yes. Let me double confirm' 04:43 UTC 11 Nov in #nge-scope-opsos-rollout) - cleanup only, not an active outage",
+    "b2b-shop-eu logo-file nesting errors ('tempLogo...jpg is not a recognized imageformat'): 40+ orders fixed by hand 16:21 UTC 10 Nov, Picturator hotfix deployment still unconfirmed (thread https://thecustomizationgroup.slack.com/archives/C0AA7KR9K0D/p1794322350481869). Overnight burst of 10 error mails 03:20-04:20 UTC 11 Nov; only 1 more (04:20:43 UTC, order D44171678x42) and none between then and 05:30 UTC. Not alert-worthy: known bug, one shop's logo orders, fixable by EU team in their morning. Alert if the rate jumps well beyond ~10/hour, other shops / error types appear, or it is still unaddressed once the EU team is online (after ~08:00 UTC) while Ben is still off the clock"
+  ],
+  "notes": "Legend rows (A70:C82) are cut off by the connector's 200k-char limit - rely on the code table in CLAUDE.md. Do not read sheet 2 (Trade Fairs) unless the cell is f/F; it is large.",
+  "previous_state_branch": "claude/serene-hopper-n9qcmt"
+}
