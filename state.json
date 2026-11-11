@@ -1,0 +1,11 @@
+{
+  "last_run_utc": "2026-11-11T04:24:00Z",
+  "last_run_result": "off-the-clock (Tue 23:24 local, America/New_York - sheet cell 'C' for 10 and 11 Nov, verified this run) - checked email and Slack, nothing urgent, no alert sent",
+  "last_message_check_utc": "2026-11-11T04:25:00Z",
+  "message_check_window_utc": "2026-11-11T03:19:00Z to 2026-11-11T04:30:00Z",
+  "watch_items": [
+    "Zenduty #2084 opsos-prod frontend-proxy pod restarts: auto-resolved 09:14 UTC 10 Nov; cause = unused pre-NGE-12969 frontend-proxy stack, DevOps asked to delete it (Evan chased 'is it done?' 04:20 UTC 11 Nov in #nge-scope-opsos-rollout) - cleanup only, not an active outage",
+    "b2b-shop-eu logo-file nesting errors ('tempLogo...jpg is not a recognized imageformat'): 40+ orders fixed by hand 16:21 UTC 10 Nov, Picturator hotfix deployment still unconfirmed (Gavin's question in thread https://thecustomizationgroup.slack.com/archives/C0AA7KR9K0D/p1794322350481869 unanswered). Recurring overnight: 10 error mails / 9 orders between 03:20 and 04:20 UTC 11 Nov (mail counts: 2 at 20:54 UTC, 1 at 17:00 UTC before that). Judged not alert-worthy: known bug, one shop's logo orders, fixable by the EU team in their morning, production otherwise running. Alert if the rate jumps well beyond ~10/hour, if other shops / error types appear, or if it is still unaddressed once the EU team is online (after ~08:00 UTC) while Ben is still off the clock"
+  ],
+  "previous_state_branch": "claude/serene-hopper-ip03vy"
+}
