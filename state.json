@@ -1,0 +1,13 @@
+{
+  "last_run_utc": "2026-11-11T00:24:00Z",
+  "last_run_result": "on-the-clock (Tue 19:24 local, America/New_York) - no message check performed",
+  "last_message_check_utc": null,
+  "travel_sheet_notes": {
+    "row": "Ben Whitehead (sheet 'Travel Planning', first date column = Mon 5 Jun 2023, one column per day)",
+    "legend_inferred": {
+      "C": "Columbus, Ohio (CMH) - America/New_York; confirmed via calendar hotel/flight entries and Slack status, Nov 2026",
+      "X": "travel day"
+    },
+    "caveat": "The sheet's own legend rows are cut off by the connector's 200k-character read limit, so letter meanings are inferred from calendar/Slack evidence."
+  }
+}
